@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Section 1 -->
+    <LinearLayout
+        android:id="@+id/section1Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/section1Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="270-280nm"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOnButton1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED On"
+                android:layout_marginEnd="8dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOffButton1"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Off"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Section 2 -->
+    <LinearLayout
+        android:id="@+id/section2Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/section2Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="367nm"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOnButton2"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED On"
+                android:layout_marginEnd="8dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOffButton2"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Off"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Section 2 -->
+    <LinearLayout
+        android:id="@+id/section3Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/section3Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="382-385nm"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOnButton3"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED On"
+                android:layout_marginEnd="8dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOffButton3"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Off"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Section 2 -->
+    <LinearLayout
+        android:id="@+id/section4Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/section4Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="400-402nm"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOnButton4"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED On"
+                android:layout_marginEnd="8dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOffButton4"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Off"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Section 2 -->
+    <LinearLayout
+        android:id="@+id/section5Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/section5Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="422-425nm"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOnButton5"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED On"
+                android:layout_marginEnd="8dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOffButton5"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Off"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Section 2 -->
+    <LinearLayout
+        android:id="@+id/section6Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/section6Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="660nm"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOnButton6"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED On"
+                android:layout_marginEnd="8dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOffButton6"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Off"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Section 7 -->
+    <LinearLayout
+        android:id="@+id/section7Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/section7Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="730nm"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOnButton7"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED On"
+                android:layout_marginEnd="8dp"
+                />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ledOffButton7"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LED Off"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+    <!-- Repeat sections 3 to 7 -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/allLightsOnButton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="All Lights On"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        />
+
+</LinearLayout>
+</ScrollView>
