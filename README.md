@@ -16,11 +16,12 @@ Secure Connection: Ensures secure communication between the Android app and Rasp
 
 ### Requirements
 Android device running Android OS [9.0 - Oreo]
-Raspberry Pi
+Raspberry Pi [Min 1GB RAM, Recommended Raspberry Pi 3+]
 ### Steps
 Clone or download the repository.
-## Usage
 
+## Usage
+Run the python program in your laptop
 Open the app on your Android device.
 
 ## Contributing
